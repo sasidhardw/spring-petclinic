@@ -58,6 +58,13 @@
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
     </dependency>
+      
+  <groupId>org.sonarqube</groupId>
+  <artifactId>parent</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>Example of SonarQube Scanner for Maven + Code Coverage by UT and IT</name>
 
     <!-- Databases - Uses HSQL by default -->
     <dependency>
